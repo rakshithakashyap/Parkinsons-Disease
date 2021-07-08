@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+html,body{
+    position: relative;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px!important;
+    line-height: 1.4;
+    color: rgb(53, 50, 50)!important;
+    background-color: #fff;
+}
+.wrapper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header{
+    
+    padding:20px 0 50px;
+}
+.mm-text{
+    margin: 300px 0 300px;
+}
+/* ------------------nav---------------------- */
+.navbar{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav-link{
+    font-size: 14px;
+    color: #000000!important;
+}
+.nav-link:hover {
+    color: rgb(86 206 191)!important;
+    transition: .5s ease;
+}
+.btn:hover{
+    background-color: rgb(46, 117, 108)!important;
+    transition: .5s ease;
+}
+.mm-head{
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+.a-para{
+    width: 80%;
+}
+ #skill{ 
+    padding: 1px 0; 
+}
+#counts{
+    padding: 90px 0;
+    background-color: rgb(86 206 191);
+}
+.fa{
+    color: #fff;
+    font-size: 50px;
+}
+.c-text {
+    font-size: 15px!important;
+}
+
+#test , #footer{
+    padding: 50px 0;
+}
+.output-row {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:770px){
+.mm-head{
+    font-size: 40px;
+}
+.a-para {
+    width: 80%;
+}
+.main-modal{
+    justify-content: center;
+}
+}
+@media (max-width:990px){
+    .mm-text{
+        text-align: center;
+    }
+}
+
+@media (max-width:576px){
+    .col-xs-4{
+        width: 33.3%!important;
+    }
+    .prof-head{
+        margin-left: 5%;
+    }
+}
+@media (max-width:526px){
+    .mm-head{
+        font-size: 35px;
+    }
+}
+@media (max-width:380px){
+    body{
+        font-size:15px!important;
+    }
+    button.btn{
+        padding: 10px 20px!important;
+    }
+    .col-xs-4{
+        font-size: 13px!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

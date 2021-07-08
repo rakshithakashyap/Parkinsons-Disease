@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static' , filename='style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" > 
+    <script src="https://kit.fontawesome.com/da834d174b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>PD` website</title>
+  </head>
+  <body>
+
+
+
+    
+
+<header class="header"style="background:linear-gradient(rgba(214, 207, 207, 0.415),rgba(184, 182, 182, 0.197)),
+url('/static/a1.jpg') center/cover no-repeat fixed;">
+    <div class="container-fluid"> 
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background:url('/static/pic1.jfif') fixed;"> 
+            <a class="navbar-brand" href="#">
+                <img src='static/p2.png' width="50" height="50" alt="">
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse " id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link px-4 font-weight-bold active" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 font-weight-bold" href="#skill">Understanding Parkinson's</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 font-weight-bold" href="#skill">Checking Parkinsion's</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4 font-weight-bold" href="#service">Updates</a>
+                </li> 
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+
+    {% block body1 %}{% endblock %}
+</header>
+
+    
+    <section id="skill" style="background:linear-gradient(to right , #ffffff1c ,#1d212405 ),url('/static/p3.jpg') center/cover no-repeat fixed;"  >
+        <div class="container wrapper">
+          <div class="row text-center justify-content-center">
+        <div class="head-2  ">
+          <h3 class="font-weight-bold" style="color:rgb(46, 117, 108)">Parkinson’s Disease</h3>
+        </div> 
+        <div class="row text-center justify-content-center mt-3">
+        <div class="a-para ">
+          Parkinson’s disease is a progressive disorder that is caused by degeneration of nerve cells in the part of the brain 
+          called the substantia nigra, which controls movement. These nerve cells die or become impaired, losing the ability to produce
+           an important chemical called dopamine. Studies have shown that symptoms of Parkinson's develop in patients with an 80 percent
+            or greater loss of dopamine-producing cells in the substantia nigra.
+        </div></div>
+      </div>
+    </div>
+{% block body2%} {% endblock %}
+
+    </div>
+  </section>
+
+
+
+
+
+  
+
+<section id="service" style="background-color: rgb(230, 228, 228);background:linear-gradient(to right , #ffffff1c ,#1d212405 ),url('/static/p3.jpg') center/cover no-repeat fixed;">
+    <div class="row text-center justify-content-center pt-5">
+        <div class="head-2  ">
+          <h3 class="font-weight-bold" style="color:rgb(46, 117, 108)">Understanding Parkinson's</h3>
+        </div>
+        </div>
+    
+    <div class="container pb-5">
+      <div class="pt-5 row text-center justify-content-center">
+          <div class="row mb-5">
+    <div class="col-lg-4 col-md-4 col-sm-6 s-item p-3">
+        <div class="s-icon ">
+          <h2 class=""data-aos="zoom-in"><i class="fa fa-diamond text-dark"></i></h2>
+      </div>
+      <div class="s-text">
+        <p class="s-head">About Parkinson's
+        </p>
+        <p class="">Parkinson’s disease is a neurodegenerative brain disorder. There is currently no cure, but there are many treatment options to manage symptoms.</p>
+        <a href="https://www.parkinson.org/understanding-parkinsons/what-is-parkinsons">LEARN MORE</a>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 s-item p-3 ">
+      <div class="s-icon">
+        <h2 class="text-dark"data-aos="zoom-in"><i class="	fa fa-heartbeat text-dark"></i></h2>
+    </div>
+    <div class="s-text">
+      <p class="s-head">Signs & Symptoms</p>
+      <p class="">No single one of these signs means that you should worry, though if you have more than one you should make an appointment to talk to your doctor.</p>
+    <a href="https://www.parkinson.org/understanding-parkinsons/10-early-warning-signs">LEARN MORE</a>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 s-item p-3 ">
+      <div class="s-icon">
+        <h2 class=""data-aos="zoom-in"><i class="fa fa-medkit text-dark"></i></h2>
+    </div>
+    <div class="s-text">
+      <p class="s-head">New to Parkinson's</p>
+      <p class="">We offer the community, resources and advice to support you and your family as you begin to build a better life with Parkinson's.</p>
+      <a href="https://www.parkinson.org/newlydiagnosed">LEARN MORE</a>
+    </div>
+    </div>
+</div>
+    <div class="row text-center justify-content-center py-5">
+        <div class="head-2  ">
+          <h3 class="font-weight-bold" style="color:rgb(46, 117, 108)">Updates on Parkinson's</h3>
+        </div>
+        </div>
+        <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-6 s-item p-3 ">
+      <div class="s-icon">
+        <h2 class=""data-aos="zoom-in"><i class="fa fa-star text-dark"></i></h2>
+    </div>
+    <div class="s-text">
+      <p class="s-head">Get latest news</p>
+      <p class="">Get all the latest news about Parkinsons disease</p>
+      <a href="https://www.parkinson.org/about-us/Press-Room/Press-Releases">LEARN MORE</a>
+    </div>
+    </div> 
+    <div class="col-lg-4 col-md-4 col-sm-6 s-item p-3 ">
+      <div class="s-icon">
+        <h2 class=""data-aos="zoom-in"><i class="fa fa-bolt text-dark"></i></h2>
+    </div>
+    <div class="s-text">
+      <p class="s-head">Blogs</p>
+      <p class="">Read all the blogs regarding Parkinson’s disease</p>
+      <a href="https://www.parkinson.org/living-with-parkinsons/parkinsons-today-blog">LEARN MORE</a>
+    </div>
+    </div> 
+    <div class="col-lg-4 col-md-4 col-sm-6 s-item p-3 ">
+      <div class="s-icon">
+        <p class=""data-aos="zoom-in"><i class="fa fa-fire text-dark"></i></p>
+    </div>
+    <div class="s-text">
+      <p class="s-head">Upcoming Events</p>
+      <p class="">Get all the notifications of upcoming events</p>
+      <a href="https://www.parkinson.org/get-involved/events">LEARN MORE</a>
+    </div>
+    </div> 
+</div>
+      </div>
+    </div>
+    </section>
+    
+          <footer id="footer" style="background-color: black;font-size: 15px;">
+            <div class="container">
+              <div class="row text-light ">
+                <div class="col-lg-5 col-md-6 col-xs-6 text-center mt-4">
+                  <div class="pt-2">© 2021 All rights reserved.
+                    <br>Designed by Nirisha, Poorvi,
+                    <br>Rakshitha ,Reethu</div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-6 mt-4 text-center">
+                  <p class="">hello@parkinsonsDisease.com<br>
+                    +123456789</p>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-4 col-xs-4 mt-4 text-center">
+                  <a href="#" class="text-light"> Home</a><br>
+                   <a href="#" class="text-light">Understand PD</a><br>
+                   <a href="#" class="text-light"> Test PD</a><br>
+                   <a href="#" class="text-light"> Updates</a>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-4 col-xs-4 mt-4 text-center">
+                  <a href="#" class="text-light"> News</a><br>
+                   <a href="#" class="text-light"> Events</a><br> 
+                   <a href="#" class="text-light"> Blogs</a><br>
+                   <a href="#" class="text-light"> Upcoming Events</a>
+                </div>
+                <div class="offset-lg-1 col-lg-1 col-md-4 col-sm-4 col-xs-4 mt-4 text-center">
+                   <a href="#" class="text-light"> Twitter</a><br>
+                   <a href="#" class="text-light"> Instagram</a><br>
+                   <a href="#" class="text-light"> Facebool</a><br>
+                   <a href="#" class="text-light"> Dribble</a>
+                  </div>
+              </div>
+            </div>
+          </footer>
+    
+     
+    <!-- counter -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+   
+    <!-- aos -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration:1200,
+          });
+        </script>
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+         
+        </body>
+        </html>
